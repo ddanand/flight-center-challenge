@@ -1,0 +1,43 @@
+.imgContainer {
+    display: flex;
+    overflow: hidden;
+    left: calc(50%);
+    overflow: hidden;
+    transform: translate(50%);
+}
+
+.leftArrow {
+    position: fixed;
+    top: 10%;
+    transform: scale(8);
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: fixed;
+    top: 10%;
+    right: 4%;
+    transform: scale(8);
+    cursor: pointer;
+}
+
+img {
+    height: 200px;
+}
+
+.albumDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.albumName {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.currentAlbum {
+    border: solid 2px red;
+    transition: all;
+}
